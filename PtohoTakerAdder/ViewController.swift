@@ -21,13 +21,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         let options = PHFetchOptions()
         options.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: true)]
         let assets = PHAsset.fetchAssets(with: options)
+        // MARK:- Just check
         let firstAsset = assets[1]
         PHImageManager.default().requestImage(for: firstAsset, targetSize: CGSize(width: 250, height: 250), contentMode: .aspectFill, options: nil) { (image, _) in
             self.imageView.image = image
         }
-        //let asset = PHAsset.fetchAssets(withLocalIdentifiers: [assets[1].localIdentifier], options: .none)
-        
-        //print(asset)
     }
     
     // Did finish picking
