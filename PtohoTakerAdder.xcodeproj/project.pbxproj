@@ -12,6 +12,7 @@
 		4E0C159B2088918D00D0445F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0C15992088918D00D0445F /* Main.storyboard */; };
 		4E0C159D2088919100D0445F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0C159C2088919100D0445F /* Assets.xcassets */; };
 		4E0C15A02088919100D0445F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0C159E2088919100D0445F /* LaunchScreen.storyboard */; };
+		4E4ABC6620A0326300D4E389 /* PtohoTakerAdder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E4ABC6420A0326300D4E389 /* PtohoTakerAdder.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E0C159C2088919100D0445F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E0C159F2088919100D0445F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E0C15A12088919100D0445F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4ABC6520A0326300D4E389 /* PtohoTakerAdder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PtohoTakerAdder.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4E0C159C2088919100D0445F /* Assets.xcassets */,
 				4E0C159E2088919100D0445F /* LaunchScreen.storyboard */,
 				4E0C15A12088919100D0445F /* Info.plist */,
+				4E4ABC6420A0326300D4E389 /* PtohoTakerAdder.xcdatamodeld */,
 			);
 			path = PtohoTakerAdder;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4ABC6620A0326300D4E389 /* PtohoTakerAdder.xcdatamodeld in Sources */,
 				4E0C15982088918D00D0445F /* ViewController.swift in Sources */,
 				4E0C15962088918D00D0445F /* AppDelegate.swift in Sources */,
 			);
@@ -334,6 +338,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E4ABC6420A0326300D4E389 /* PtohoTakerAdder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E4ABC6520A0326300D4E389 /* PtohoTakerAdder.xcdatamodel */,
+			);
+			currentVersion = 4E4ABC6520A0326300D4E389 /* PtohoTakerAdder.xcdatamodel */;
+			path = PtohoTakerAdder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4E0C158A2088918D00D0445F /* Project object */;
 }
